@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+table{
+    display: flex;
+    align-items: center;
+}
+.heading{
+    background-color: aqua;
+     text-transform: uppercase;
+
+}
+.colspan{
+    border: none;
+} 
+td{
+    width: 50px;
+    height: 50px;
+   text-align: center;
+   border-radius: 5px;
+}
+
+.cb2a4064{
+    background-color: #2a4064;
+    color: white;
+}
+
+.cdd244d57{
+    background-color: #244d57;
+    color: white;
+}
+.cB623842
+{
+    background-color: #623842;
+    color: white;
+}
+.cp433c65{
+    background-color: #433c65;
+    color: white;
+}
+.cg46474c{
+    background-color: #46474c;
+    color: white;
+}
+.cdb613b28{
+    background-color: #613b28;
+    color: white;
+}
+.cbl004a77{
+    background-color: #004a77;
+    color: white;
+}
+.cddd523e1b{
+    background-color: #523e1b;
+    color: white;
+}
+.cgl2f4d47{
+    background-color: #2f4d47;
+    color: white;
+}
