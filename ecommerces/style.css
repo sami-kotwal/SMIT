@@ -15,13 +15,14 @@ body{
     
 
 }
-.main{
+.login-main{
     height: 400px;
     width: 400px;
     background-color: #000000c0;
     border-radius: 12px;
     padding: 40px;
-   
+   box-shadow: rgb(255, 255, 255) 0px 5px 15px;
+
  
     
 }
@@ -41,8 +42,10 @@ body{
     border-radius: 10px;
     background-color: #ffffff00;
     color: #fff;
+     border: 2px solid #fff;
 
 }
+
 .password
 {
     margin-top: 20px;
@@ -51,10 +54,12 @@ body{
     border-radius: 10px;
     background-color: #ffffff00;
     color: #fff;
+     border: 2px solid #fff;
 
 }
 input:focus{
     background-color: #fff;
+    color: black;
 }
 .label{
     color: #fff;
@@ -67,6 +72,7 @@ input:focus{
     
     align-items: center;
 }
+
 
 a{
     color: #fff;
@@ -91,4 +97,41 @@ a{
 {
     background-color: white;
     color: black;
+}
+/* login form end */
+/* contact form start */
+.Contact-main
+{
+  background-color: rgb(255, 255, 255);
+  height:500px;
+  width: 70%;
+  border-radius: 12px;
+ 
+  padding: 40px;
+    
+}
+.content-heading
+{
+font-size: 40px;
+text-transform: uppercase;
+}
+#cform
+{
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+.bform
+{
+    width: 30%;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: aqua;
+    margin-top: 20px;
+}
+.bform:hover
+{
+    background-color: black;
+    color: #fff;
 }
