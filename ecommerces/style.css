@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("images/backgroud-image-login.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.main{
+    height: 400px;
+    width: 400px;
+    background-color: #000000c0;
+    border-radius: 12px;
+    padding: 40px;
+   
+ 
+    
+}
+.heading-login
+{
+    color: #fff;
+    text-align: center;
+   font-size: 40px;
+
+}
+
+.email
+{
+    margin-top: 20px;
+    width: 100%;
+    padding:10px;
+    border-radius: 10px;
+    background-color: #ffffff00;
+    color: #fff;
+
+}
+.password
+{
+    margin-top: 20px;
+    width: 100%;
+    padding:10px;
+    border-radius: 10px;
+    background-color: #ffffff00;
+    color: #fff;
+
+}
+input:focus{
+    background-color: #fff;
+}
+.label{
+    color: #fff;
+
+}
+.input-check
+{
+    display: flex;
+    margin-top: 40px;
+    
+    align-items: center;
+}
+
+a{
+    color: #fff;
+    margin-left: 100px;
+}
+.label
+{
+    margin-left: 10px;
+}
+.button
+{
+    background-color: black;
+    color: #fff;
+    width: 100%;
+    height: 30px;
+    padding: 40x;
+    margin-top: 30px;
+    border-radius: 12px;
+    font-size: 20px;
+}
+.button:hover
+{
+    background-color: white;
+    color: black;
+}
