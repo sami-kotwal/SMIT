@@ -1,0 +1,124 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 14px;
+}
+ header nav ul li{
+    display: inline;
+    margin-left: 30px;
+ }
+
+ .sub-nav
+ {
+    background-color: beige;
+    text-align: center;
+    padding: 12px;
+ }
+ span a
+ {
+   text-decoration: none;
+ }
+ .hero
+ {
+    text-align: center;
+    margin-top: 40px;
+ }
+ .hero h1{
+    padding: 20px;
+    font-size: 50px;
+ }
+ .link
+ {
+    margin-top: 15px;
+ }
+ .link a
+ {
+    margin: 10px;
+    text-decoration: none;
+ }
+ .secound
+ {
+    background-color: black;
+    color: white;
+    height: 70vh;
+    text-align: center;
+    padding-top: 40px;
+}
+.secound h5
+{
+    padding: 10px 0px;
+}
+
+.secound img 
+{
+    width: 700px;
+}
+.main
+{
+   display: flex;
+   margin: 10px;
+}
+
+.box
+{
+    width: 49%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 6px;
+ padding-top: 30px;
+}
+.box h5 {
+    padding: 10px;
+}
+.box img 
+{
+    width: 600px;
+}
+
+.outer
+{
+    display: flex;
+   margin: 10px;
+}
+
+.box2
+{
+    background-color: white;
+    color: black;
+    width: 49%;
+     text-align: center;
+    margin: 6px;
+ padding-top: 30px;
+}
+
+.box2 img
+{
+    width: 500px;
+
+}
+
+.box3
+{
+    background-color:lightseagreen;
+    color: black;
+    width: 49%;
+     text-align: center;
+    margin: 6px;
+ padding-top: 30px;
+}
+
+.box3 img
+{
+    width: 500px;
+
+}
